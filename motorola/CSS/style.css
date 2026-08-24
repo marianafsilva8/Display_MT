@@ -12,3 +12,22 @@ body{
     height: 100vh;
 
 }
+
+.conteudo {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.conteudo img {
+    width: 400px;
+}
+
+.textos h1 {
+    font-size: 40px;
+}
+
+.textos h2 {
+    font-size: 24px;
+    margin-top: 5px;
+}
