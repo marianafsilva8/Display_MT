@@ -1,0 +1,20 @@
+{
+  "name": "display_ta",
+  "version": "1.0.0",
+  "description": "Estudos para utilizar a propriedadade display do CSS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "endereço http"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "display"
+  ],
+  "author": "Ingrid",
+  "license": "ISC"
+}
