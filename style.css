@@ -1,0 +1,127 @@
+/* reset do elementos */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', sans-serif;
+    color: #fdbae1;
+}
+
+/* html{
+    font-family: Verdana, sans-serif;
+
+} */
+.container{
+
+    width:300px ;
+    height: 300px;
+    background-color: #e97daa;
+    color: white;
+}
+.body-container{
+    background-color:#F7D1E0 ;
+    /* text-align: center; */
+}
+
+.header-container{
+    display: flex;
+    
+    width: 100%;
+    height: 80px;
+    background-color: #fabdd6;
+    /* text-align: center; */
+
+}
+
+
+.header-container a{ 
+    display: inline-block;
+    background-color:#ff85b8;
+    text-decoration: none;
+    font-size: large;
+    color: white;
+
+    margin: 10px 0px 0px 15px;
+    /* margin-top: 10px;
+    margin-left: 15px; */
+
+    /* 10 em cima e 15 esquerda*/
+    padding: 10px 25px;
+
+    border-width: 2px;
+    border-style: dashed;
+    border-color:white ;
+
+    /*arredondar borda*/
+    border-radius:40px ;
+}
+
+/*pseudo classe que detecta o movimento do mouse*/
+
+.header-container a:hover{
+
+    border-color: #000000;
+    background-color: #fa4aa8;
+    
+
+}
+
+.menu{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    align-items: center;
+    height: 80px;
+    background-color: #f32894;
+    color: #fdfdfd;
+}
+
+.section01{
+
+    width:400px ;
+    height:400px ;
+    border: 2px  dashed #fdfdfd;
+    margin: 15px auto; 
+    padding-left: 30px ;
+    background-color: #ff85b8;
+    display: none;
+    /* padding-top: 15px; */
+}
+
+ .item-lista{
+    line-height: 30px; /*espaçamento entre as linhas*/
+    margin-top: 15px; 
+    color:#fdfdfd;
+
+}
+
+.section01 h1{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.section02{
+    line-height: 15px;
+    text-align: justify;
+    padding: 10px;
+    margin-left:35px;
+    font-family:"Gill Sans"sans-serif;
+    display: none;
+}
+
+.section02 p{
+  font-family: "Gill Sans"sans-serif;
+  color: #fdfdfd
+}
+
+.section02 :hover{
+    font-family: 'Times New Roman';
+    color: #F7D1E0;
+}
