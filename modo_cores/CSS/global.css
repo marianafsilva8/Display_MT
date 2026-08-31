@@ -84,6 +84,13 @@
     box-shadow: 0 0 30px rgba(51, 50, 50, 0.3);
 }
 
+.color-section__bar--rgb-1{background-color: var(--color-rgb-1)};
+.color-section__bar--rgb-2{background-color: var(--color-rgb-2)};
+.color-section__bar--rgb-3{background-color: var(--color-rgb-3)};
+.color-section__bar--rgb-4{background-color: var(--color-rgb-4)};
+.color-section__bar--rgb-5{background-color: var(--color-rgb-5)};
+.color-section__bar--rgb-6{background-color: var(--color-rgb-6)};
+
 
 
 

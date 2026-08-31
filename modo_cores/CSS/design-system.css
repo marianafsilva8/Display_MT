@@ -27,11 +27,11 @@
     --color-cmyk-6: #d900d9;
 
     /* Paleta da Netflix */
-    --color-cmyk-1: #221F1F;
-    --color-cmyk-2: #E50914;
-    --color-cmyk-3: #F5F5F1;
+    --color-netflix-1: #221F1F;
+    --color-netflix-2: #E50914;
+    --color-netflix-3: #F5F5F1;
 
     /* Paleta da Amazon */
-    --color-cmyk-1: #FF9900;
-    --color-cmyk-2: #146EB4;
+    --color-amazon-1: #FF9900;
+    --color-amazon-2: #146EB4;
 }
