@@ -32,18 +32,57 @@
 }
 
 .color-section__menu{
-
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 
 .color-section__link{
-
+    color: var(--ui-text-link);
+    text-decoration: none;
+    font-size: 14px;
+    /* Peso da Fonte (não usar px) */
+    font-weight: 600;
+    padding: 12px 16px;
+    border-radius: 6px;
+    text-align: center;
+    /* Efeito no momento em que o mouse é posicionado */
+    transition: all 0.2s ease-in-out;
 }
 
 .color-section__link--active{
+    color: var(--ui-link-active-text);
+    background-color: var(--ui-link-active-bg);
+    /* Sombra */
+    box-shadow: 0 1px 6px rgba(244, 244, 248, 0.25);
 
 }
 
 .color-section__link--active:hover{
-
+    /* Mudar as propriedades do elemento */
+    /* transform: scale(1.05); */
+    transform: scale(1.05);
 }
+
+.color-section__link:not(.color-section__link--active):hover{
+    color: var(--ui-text-title);
+    background-color: var(--ui-link-hover-bg);
+}
+
+.color-section__bar{
+    /* Faz com que as 6 colunas dividam igualmente o espaço restante */
+    flex-grow: 1;
+    height: 100%;
+    /* Efeito de transição suave */
+    transition: transform 0.25s ease;
+}
+
+.color-section__bar:hover{
+    transform: scaleX(1.02);
+    /* Posição do item no eixo Z (profundidade) */
+    z-index: 10;
+    box-shadow: 0 0 30px rgba(51, 50, 50, 0.3);
+}
+
+
 
