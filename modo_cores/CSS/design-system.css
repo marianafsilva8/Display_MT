@@ -24,5 +24,16 @@
     --color-cmyk-3: #0000ae; 
     --color-cmyk-4: #dfdf05; 
     --color-cmyk-5: #03e6e6; 
-    --color-cmyk-6: #d900d9; 
+    --color-cmyk-6: #d900d9;
+
+    /* Paleta da Netflix */
+    --color-cmyk-1: #221F1F;
+    --color-cmyk-1: #E50914;
+    --color-cmyk-1: #F5F5F1;
+
+    /* Paleta da Amazon */
+    --color-cmyk-1: #FF9900;
+    --color-cmyk-1: #146EB4;
+
+
 }
