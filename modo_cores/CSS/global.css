@@ -11,10 +11,24 @@
 
 .color-section_sidebar{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 260px;
+    background-color: var(--ui-bg-sidebar);
+    padding: 30px 20px;
+    border-right: 1px solid var(--ui-border);
 
 }
 
 .color-section__title{
+    color: var(--ui-text-title);
+    font-size: 20px;
+    /* Peso da fonte: NÃO UTILIZA PX */
+    font-weight: 700;
+    margin-bottom: 35px;
+    text-align: center;
+    /* Espaçamento entre as letras */
+    letter-spacing: 0.5px;
 
 }
 
@@ -34,6 +48,3 @@
 
 }
 
-.color-section__link:not{
-
-}
