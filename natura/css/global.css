@@ -4,6 +4,7 @@
 
 .brands{
     padding: 30px;
+    background-color: aqua;
 }
 
 .brands_title{
@@ -46,7 +47,7 @@
     color: #5d5d5d;
 }
 
-.brand-card_title{
+.brand-card__title{
     font-size: 20px;
     font-weight: 700;
 }
@@ -60,7 +61,7 @@
     max-width: 400px;
 }
 
-.brand-card_button{
+.brand-card__button{
     align-self: flex-start;
     padding: 10px 20px;
     background-color: transparent;
