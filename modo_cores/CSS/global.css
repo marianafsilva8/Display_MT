@@ -3,6 +3,7 @@
 @import url(./reset.css);
 @import url(./design-system.css);
 
+
 .color-section{
     display: flex;
     height: 100vh;
@@ -15,52 +16,51 @@
     justify-content: center;
     width: 260px;
     background-color: var(--ui-bg-sidebar);
-    padding: 30px 20px;
-    border-right: 1px solid var(--ui-border);
-
+    padding: 30px 20 px;
+    border-right: 1px solid var(--ui-link-active-bg);
 }
 
 .color-section__title{
     color: var(--ui-text-title);
     font-size: 20px;
-    /* Peso da fonte: NÃO UTILIZA PX */
+    /* peso da fonte NÃO utiliza */
     font-weight: 700;
     margin-bottom: 35px;
     text-align: center;
-    /* Espaçamento entre as letras */
+    /* Espaço entre as letras */
     letter-spacing: 0.5px;
 }
 
+/* Elemento Menu: container flex vertical para alinhar os botoes */
 .color-section__menu{
     display: flex;
     flex-direction: column;
     gap: 12px;
 }
 
+/* Elemento Link: Estilo base dos botões de navegação */
 .color-section__link{
     color: var(--ui-text-link);
     text-decoration: none;
     font-size: 14px;
-    /* Peso da Fonte (não usar px) */
+    /* peso da fonte (nao usar px) */
     font-weight: 600;
     padding: 12px 16px;
     border-radius: 6px;
     text-align: center;
-    /* Efeito no momento em que o mouse é posicionado */
-    transition: all 0.2s ease-in-out;
+    /* quando o elemento perde/ ganha o foco */
+    transition: all 0.2 ease-in-out;
 }
 
 .color-section__link--active{
     color: var(--ui-link-active-text);
     background-color: var(--ui-link-active-bg);
-    /* Sombra */
-    box-shadow: 0 1px 6px rgba(244, 244, 248, 0.25);
-
+    /* sombra V H blur spread color */
+    box-shadow: 0 1px 6px rgba(101, 29, 129);
 }
 
 .color-section__link--active:hover{
-    /* Mudar as propriedades do elemento */
-    /* transform: scale(1.05); */
+    /* Alterar Formato do elemento */
     transform: scale(1.05);
 }
 
@@ -70,16 +70,17 @@
 }
 
 .color-section__bar{
-    /* Faz com que as 6 colunas dividam igualmente o espaço restante */
+    /* faz com que as 6 colunas dividam igualmente o espaço */
     flex-grow: 1;
     height: 100%;
+
     /* Efeito de transição suave */
-    transition: transform 0.25s ease;
+    transition: transform 0.25 ease;
 }
 
-.color-section__bar:hover{
+.color-section__bar:hover {
     transform: scaleX(1.02);
-    /* Posição do item no eixo Z (profundidade) */
+    /* posicionamento do elemento no eixo z (pilha) */
     z-index: 10;
     box-shadow: 0 0 30px rgba(94, 40, 105);
 }
