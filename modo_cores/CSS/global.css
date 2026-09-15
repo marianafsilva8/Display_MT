@@ -9,7 +9,7 @@
     width: 100%;
 }
 
-.color-section_sidebar{
+.color-section__sidebar{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -81,7 +81,7 @@
     transform: scaleX(1.02);
     /* Posição do item no eixo Z (profundidade) */
     z-index: 10;
-    box-shadow: 0 0 30px rgba(51, 50, 50, 0.3);
+    box-shadow: 0 0 30px rgba(94, 40, 105);
 }
 
 .color-section__bar--rgb-1{background-color: var(--color-rgb-1)}
