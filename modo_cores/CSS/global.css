@@ -119,7 +119,53 @@
 }
 
 .color-section__faq-item{
+    background-color: var(--faq-card-bg);
+    border: 1px solid var(--faq-border);
+    border-radius: 10px;
+    padding: 18px 22px;
+    margin-bottom: 20px; /* Aumentando espaçamento entre as perguntas */
+    transition: all 0.3s ease-in-out;
+}
 
+/* Efeito Hover e foco com Neon nos boxes */
+.color-section__faq-item:hover,
+.color-section__faq-item[open]{
+    background-color: var(--faq-card-hover-bg);
+    border-color: var(--faq-border-neon);
+    /* Efeito neon com box-shadow duplo (linha de contorno vibrante + brilho
+    difuso) */
+    box-shadow: 0 0 8px var(--faq-border-neon), 0 0 20px rgba(157, 38, 239, 0.3);
+    transform: translateY(-2px);
+}
+
+/* Estilo do cabeçalho da pergunta (summary) */
+.color-section__faq-question{
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--faq-text-question);
+    cursor: pointer;
+
+    /* Troca de ícone via CSS puro
+    Esconde a seta padrão nos navegadores padrão */
+
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: color 0.2s ease;
+}
+
+/* Remove a seta nativa no Safari e navegadores WebKit */
+.color-section__faq-question::-webkit-details-marker{
+    display: none;
+}
+
+/* Novo ícone customizado (Criado com CSS Puro */
+.color-section__faq-question::after{
+    content: "✦"; /* Ícone em formato de estrela/brilho para combinar com o neon */
+    font-size: 16px;
+    color: var(--faq-border-neon-glow);
+    transition: transform 0.3s ease, color 0.3s ease;
 }
 
 
