@@ -101,11 +101,15 @@
 }
 
 .color-section__faq{
+    flex-grow: 1;
+    background-color: var(--faq-bg);
+    padding: 35px 40px;
+    border-top: 1px;
 
 }
 
 .color-section__faq-item{
-    
+
 }
 
 
