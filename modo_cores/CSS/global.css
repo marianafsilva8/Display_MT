@@ -88,14 +88,23 @@
 }
 
 .color-section__content{
-
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 100vh;
 }
 
 .color-section__palette{
-
+    display: flex;
+    height: 43vh;
+    width: 100%;
 }
 
 .color-section__faq{
+
+}
+
+.color-section__faq-item{
     
 }
 
