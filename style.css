@@ -137,3 +137,23 @@ html{
     font-family: 'Times New Roman';
     color: #F7D1E0;
 }
+
+.sumario details{
+    border: 2px solid;
+    width: 50%;
+    margin-left: 25px;
+    border-radius: 5px;
+    margin-bottom: 12px;
+}
+
+.sumario summary{
+    background: #2c2c2c;
+    color: #ff85b8;
+    height: 40px;
+}
+
+.sumario p{
+    color: #fdbae1;
+    background: #f32894;
+    line-height: 40px;
+}
