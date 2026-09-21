@@ -104,8 +104,18 @@
     flex-grow: 1;
     background-color: var(--faq-bg);
     padding: 35px 40px;
-    border-top: 1px;
+    border-top: 1px solid var(--ui-border);
+    display: flex;
+    flex-direction: column;
 
+}
+
+.color-section__faq-title{
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--faq-text-title);
+    margin-bottom: 25px;
+    letter-spacing: 0.5px;
 }
 
 .color-section__faq-item{
