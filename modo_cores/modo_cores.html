@@ -3,203 +3,137 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paleta de Cores</title>
+    <title>Modo cores</title>
 
-    <link rel="stylesheet" href="./CSS/global.css">
+<!-- Arquivo Css externo -->
+    <link rel="stylesheet" href="./css/global.css">
 
 </head>
+
 <body>
 
-    <section id="rgb" class="color-section">
+    <!-- Seção modelo RGB -->
+<section id="rgb" class="color-section">
+
 
     <aside class="color-section__sidebar">
         <h2 class="color-section__title">Modelo RGB</h2>
         <nav class="color-section__menu">
-            <a href="#rgb"  class="color-section__link color-section__link--active">RGB</a>
-            <a href="#cmyk"  class="color-section__link">CMYK</a>
-            <a href="#netflix"  class="color-section__link">NETFLIX</a>
-            <a href="#amazon"  class="color-section__link">AMAZON</a>
+            <a href="#rgb" class="color-section__link color-section__link--active">RGB</a>
+            <a href="#cmyk" class="color-section__link"> CMYK </a>
+            <a href="#netflix" class= "color-section__link"> NETFLIX </a>
+            <a href="#amazon" class= "color-section__link"> AMAZON </a>
         </nav>
     </aside>
 
-    <div class="color-section__bar color-section__bar--rgb-1"></div>
-    <div class="color-section__bar color-section__bar--rgb-2"></div>
-    <div class="color-section__bar color-section__bar--rgb-3"></div>
-    <div class="color-section__bar color-section__bar--rgb-4"></div>
-    <div class="color-section__bar color-section__bar--rgb-5"></div>
-    <div class="color-section__bar color-section__bar--rgb-6"></div>
 
+
+    <div class="color-section__content">
+
+        <section class="color-section__palette" aria-label="Vizualização da Paleta RGB">
+            <div class="color-section__bar color-section__bar--rgb-1"></div>
+            <div class="color-section__bar color-section__bar--rgb-2"></div>
+            <div class="color-section__bar color-section__bar--rgb-3"></div>
+            <div class="color-section__bar color-section__bar--rgb-4"></div>
+            <div class="color-section__bar color-section__bar--rgb-5"></div>
+            <div class="color-section__bar color-section__bar--rgb-6"></div>
+        </section>
+        <section class="color-section__faq"aria-labelledby="faq-rgb-title">
+        
+            <h3 id="faq-rgb-title" class="color-section__faq-title">Perguntas Frequentes sobre RGB</h3>
+
+            <details class="color-section__faq-item">
+              <summary class="color-section__faq-quetion">O que significa RGB?</summary>
+              <p class="color-section__faq-answer">RGB significa Red, Green, Blue (Vermelho, Verde e Azul). É um modelo de cores que combina essas três cores para produzir uma grande variedade de tonalidades.</p>     
+            </details>
+
+            <details class="color-section__faq-item">
+                <summary class="color-section__faq-quetion">Onde o RGB é utilizado?</summary>
+              <p class="color-section__faq-answer">É muito usado em telas de computadores, celulares, televisores, câmeras, monitores, iluminação LED e imagens digitais.</p>
+            </details>
+
+            <details class="color-section__faq-item">
+                <summary class="color-section__faq-quetion">Como o RGB forma outras cores?</summary>
+              <p class="color-section__faq-answer">Cada uma das três cores possui uma intensidade. Ao variar essas intensidades, diferentes cores são produzidas. Por exemplo:Vermelho + Verde = amarelo</p>
+            </details>
+        </section>
+    </div>
 </section>
 
-<div class="color-section__content">
-    <div class="color-section__bar color-section__bar--rgb-1"></div>
-    <div class="color-section__bar color-section__bar--rgb-2"></div>
-    <div class="color-section__bar color-section__bar--rgb-3"></div>
-    <div class="color-section__bar color-section__bar--rgb-4"></div>
-    <div class="color-section__bar color-section__bar--rgb-5"></div>
-    <div class="color-section__bar color-section__bar--rgb-6"></div>
-    </div>
 
-    <section class="color-section__palette" aria-label="Visualização da Paleta RGB">
 
-    </section>
-
-    <section class="color-section__faq" aria-labelledby="faq-rgb-title">
-        <h3 id="faq-rgb-title" class="color-section__faq-title">Perguntas Frequentes
-        sobre RGB </h3>
-
-        <details class="color-section__faq-item">
-            <summary class="color-section__faq-question">O que significa a sigla RGB?
-            </summary>
-            <p class="color-section__faq-answer">Red, Green, Blue (Vermelho, Verde e Azul)</p>
-
-        </details>
-
-        <details class="color-section__faq-item">
-            <summary class="color-section__faq-question">Qual é a série mais assistida de toda a história da Netflix?
-            </summary>
-            <p class="color-section__faq-answer">Round 6 / Squid Game</p>
-
-        </details>
-
-        <details class="color-section__faq-item">
-            <summary class="color-section__faq-question">Qual era o principal produto vendido pela Amazon quando ela foi fundada?
-            </summary>
-            <p class="color-section__faq-answer">Livros</p>
-
-        </details>
-
-    </section>
-
+<section id="cmyk" class="color-section">
     
-    <section id="cmyk" class="color-section">
+
     <aside class="color-section__sidebar">
         <h2 class="color-section__title">Modelo CMYK</h2>
         <nav class="color-section__menu">
-            <a href="#rgb"  class="color-section__link ">RGB</a>
-            <a href="#cmyk"  class="color-section__link color-section__link--active">CMYK</a>
-            <a href="#netflix"  class="color-section__link">NETFLIX</a>
-            <a href="#amazon"   class="color-section__link">AMAZON</a>
+            <a href="#rgb" class="color-section__link ">RGB</a>
+            <a href="#cmyk" class="color-section__link color-section__link--active"> CMYK </a>
+            <a href="#netflix" class="color-section__link ">NETFLIX</a>
+            <a href="#amazon" class="color-section__link ">AMAZON</a>
         </nav>
     </aside>
 
     <div class="color-section__bar color-section__bar--cmyk-1"></div>
+
     <div class="color-section__bar color-section__bar--cmyk-2"></div>
+
     <div class="color-section__bar color-section__bar--cmyk-3"></div>
+
     <div class="color-section__bar color-section__bar--cmyk-4"></div>
+
     <div class="color-section__bar color-section__bar--cmyk-5"></div>
+
     <div class="color-section__bar color-section__bar--cmyk-6"></div>
+</section>
 
-    </section>
+<section id="netflix" class="color-section">
+    
 
-    <section class="color-section__faq" aria-labelledby="faq-cmyk-title">
-        <h3 id="faq-cmyk-title" class="color-section__faq-title">Perguntas Frequentes
-        sobre CMYK </h3>
-
-        <details class="color-section__faq-item">
-            <summary class="color-section__faq-question">O que significa a sigla CMYK?
-            </summary>
-            <p class="color-section__faq-answer">Red, Green, Blue (Vermelho, Verde e Azul)</p>
-
-        </details>
-
-        <details class="color-section__faq-item">
-            <summary class="color-section__faq-question">Qual é a série mais assistida de toda a história da Netflix?
-            </summary>
-            <p class="color-section__faq-answer">Round 6 / Squid Game</p>
-
-        </details>
-
-        <details class="color-section__faq-item">
-            <summary class="color-section__faq-question">Qual era o principal produto vendido pela Amazon quando ela foi fundada?
-            </summary>
-            <p class="color-section__faq-answer">Livros</p>
-
-        </details>
-
-    <section id="netflix" class="color-section">
     <aside class="color-section__sidebar">
-        <h2 class="color-section__title">Modelo Netflix</h2>
+        <h2 class="color-section__title">Modelo NETFLIX</h2>
         <nav class="color-section__menu">
-            <a href="#rgb"  class="color-section__link ">RGB</a>
-            <a href="#cmyk"  class="color-section__link">CMYK</a>
-            <a href="#netflix"  class="color-section__link color-section__link--active">NETFLIX</a>
-            <a href="#amazon"  class="color-section__link">AMAZON</a>
+            <a href="#rgb" class="color-section__link ">RGB</a>
+            <a href="#cmyk" class="color-section__link"> CMYK </a>
+            <a href="#netflix" class="color-section__link color-section__link--active"> NETFLIX </a>
+            <a href="#amazon" class="color-section__link ">AMAZON</a>
         </nav>
     </aside>
 
     <div class="color-section__bar color-section__bar--netflix-1"></div>
+
     <div class="color-section__bar color-section__bar--netflix-2"></div>
+
     <div class="color-section__bar color-section__bar--netflix-3"></div>
 
-    </section>
 
-    <section class="color-section__faq" aria-labelledby="faq-netflix-title">
-        <h3 id="faq-netflix-title" class="color-section__faq-title">Perguntas Frequentes
-        sobre NETFLIX </h3>
+</section>
 
-        <details class="color-section__faq-item">
-            <summary class="color-section__faq-question">O que significa a sigla RGB?
-            </summary>
-            <p class="color-section__faq-answer">Red, Green, Blue (Vermelho, Verde e Azul)</p>
+<section id="amazon" class="color-section">
+    
 
-        </details>
-
-        <details class="color-section__faq-item">
-            <summary class="color-section__faq-question">Qual é a série mais assistida de toda a história da Netflix?
-            </summary>
-            <p class="color-section__faq-answer">Round 6 / Squid Game</p>
-
-        </details>
-
-        <details class="color-section__faq-item">
-            <summary class="color-section__faq-question">Qual era o principal produto vendido pela Amazon quando ela foi fundada?
-            </summary>
-            <p class="color-section__faq-answer">Livros</p>
-
-        </details>
-
-    <section id="amazon" class="color-section">
     <aside class="color-section__sidebar">
-        <h2 class="color-section__title">Modelo Amazon</h2>
+        <h2 class="color-section__title">Modelo AMAZON</h2>
         <nav class="color-section__menu">
-            <a href="#rgb"  class="color-section__link ">RGB</a>
-            <a href="#cmyk"  class="color-section__link">CMYK</a>
-            <a href="#netflix"  class="color-section__link">NETFLIX</a>
-            <a href="#amazon"  class="color-section__link color-section__link--active">AMAZON</a>
+            <a href="#rgb" class="color-section__link ">RGB</a>
+            <a href="#cmyk" class="color-section__link"> CMYK </a>
+            <a href="#netflix" class="color-section__link "> NETFLIX </a>
+            <a href="#amazon" class="color-section__link color-section__link--active">AMAZON</a>
         </nav>
     </aside>
 
     <div class="color-section__bar color-section__bar--amazon-1"></div>
+
     <div class="color-section__bar color-section__bar--amazon-2"></div>
 
-    </section>
+    <div class="color-section__bar color-section__bar--amazon-3"></div>
 
-    <section class="color-section__faq" aria-labelledby="faq-amazon-title">
-        <h3 id="faq-amazon-title" class="color-section__faq-title">Perguntas Frequentes
-        sobre AMAZON </h3>
+    <div class="color-section__bar color-section__bar--amazon-4"></div>
 
-        <details class="color-section__faq-item">
-            <summary class="color-section__faq-question">O que significa a sigla RGB?
-            </summary>
-            <p class="color-section__faq-answer">Red, Green, Blue (Vermelho, Verde e Azul)</p>
-
-        </details>
-
-        <details class="color-section__faq-item">
-            <summary class="color-section__faq-question">Qual é a série mais assistida de toda a história da Netflix?
-            </summary>
-            <p class="color-section__faq-answer">Round 6 / Squid Game</p>
-
-        </details>
-
-        <details class="color-section__faq-item">
-            <summary class="color-section__faq-question">Qual era o principal produto vendido pela Amazon quando ela foi fundada?
-            </summary>
-            <p class="color-section__faq-answer">Livros</p>
-
-        </details>
-
+    
+</section>
     
 </body>
 </html>
+
