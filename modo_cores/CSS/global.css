@@ -165,7 +165,7 @@
     content: "✦"; /* Ícone em formato de estrela/brilho para combinar com o neon */
     font-size: 16px;
     color: var(--faq-border-neon-glow);
-    transition: transform 0.3s ease, color 0.3s ease;
+    transition: transform 0.9s ease, color 0.9s ease;
 }
 
 /* Animação do ícone ao abrir o details */
