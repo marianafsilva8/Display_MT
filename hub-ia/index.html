@@ -6,15 +6,31 @@
     <title>Document</title>
 
     <style>
-        @media screen and (min-width: 480px) {
+/* Base style for mobile devices */
+body {
+  background-color: olive;
+  color: white;
+}
+
+/* For devices with a minimum width of 768px (Medium) */
+@media screen and (min-width: 768px) {
   body {
-    background-color: lightskyblue;
+    background-color: blue;
+    color: white;
+  }
+}
+
+/* For devices with a minimum width of 992px (Large) */
+@media screen and (min-width: 992px) {
+  body {
+    background-color: tan;
+    color: black;
   }
 }
     </style>
 
 </head>
 <body>
-    
+    <h1>Este é um teste de media</h1>
 </body>
 </html>
