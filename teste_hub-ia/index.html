@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de @media</title>
+
+    <style>
+/* Base style for mobile devices */
+body {
+    padding: 20px;
+    background-color: palevioletred;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 100%;
+    max-width: 400px;
+    height: 200px;
+    background-color: black;
+}
+
+.container-position{
+    margin-top: 15px;
+    width: 100%;
+    height: 600px;
+    border: 2px solid whitesmoke;
+    position: relative;
+}
+
+.filho-tamanho{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: darkorchid;
+}
+
+.filho01__container-position{
+    top: 0;
+    left: 0;
+}
+
+.filho02__container-position{
+    top: 0;
+    right: 0;
+}
+
+.filho03__container-position{
+    bottom: 0;
+    left: 0;
+}
+
+.filho04__container-position{
+    bottom: 50%;
+    right: 50%;
+}
+
+.whats{
+    width: 75px;
+    height: 75px;
+    background-color: #483248;
+    border-radius: 50%;
+    border: 5px solid #fff;
+
+    position: fixed;
+    bottom: 100px;
+    right: 60px;
+}
+
+.whats img{
+    width: 75px;
+    height: 75px;
+}
+
+/* For devices with a minimum width of 768px (Medium) */
+@media screen and (min-width: 768px) {
+  body {
+    background-color: lightblue;
+    color: white;
+  }
+  .box{
+    width: 45%;
+    max-width: 600px;
+  }
+}
+
+/* For devices with a minimum width of 992px (Large) */
+@media screen and (min-width: 992px) {
+  body {
+    background-color: mediumpurple;
+    color: black;
+  }
+  .box{
+    max-width: 450px;
+  }
+}
+    </style>
+
+</head>
+<body>
+    <h1>Este é um teste de @media</h1>
+    <!-- Criando o container / box -->
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+
+    <div class="container-position">
+
+        <div class="filho01__container-position filho-tamanho"></div>
+        <div class="filho02__container-position filho-tamanho"></div>
+        <div class="filho03__container-position filho-tamanho"></div>
+        <div class="filho04__container-position filho-tamanho"></div>
+
+    <div class="whats">
+        <img src = "./img/whatsapp.png" alt="Logo do whats">
+
+    </div>
+
+    </div>
+</body>
+</html>
