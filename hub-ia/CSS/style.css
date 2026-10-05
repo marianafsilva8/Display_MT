@@ -85,6 +85,20 @@
     flex-direction: row-reverse;
 }
 
+.section-ia__content{
+    flex: 1;
+}
+
+.section-ia__aside{
+    flex: 1;
+}
+
+.section-ia__title{
+    font-size: var(--font-size-xl);
+    color: var(--color-primary);
+    margin-bottom: 15px;
+}
+
 
 
 
