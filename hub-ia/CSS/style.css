@@ -159,5 +159,9 @@
     transition: var(--transition);
 }
 
+.faq__item[open]{
+    border-color: var(--color-primary);
+}
+
 
 
